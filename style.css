@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#v{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 9px;
+    border-radius: 12px;
+}
+#v:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+body{
+    background: linear-gradient(45deg,#40a8ee 50%,#199cf3 50%);
+}
+header,main{
+    margin: 20px;
+}
+#skill{
+    margin-top: 50px;
+}
+#menu ul{
+    position: absolute;
+    left: 75%;
+    top: 10px;   
+    display: flex;
+    list-style: none;
+}
+#menu ul li{
+    margin: 25px;
+    margin-left: 2px;
+}
+#name{
+    color: white;
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#name,#name2{
+    background-color: black;
+    opacity: 0.70;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 30%;
+}
+#name2{
+    color: gray;
+    padding-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#about{
+    display: flex;
+}
+#dp{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 12px;
+}
+#article1{
+    margin-left: 20px;
+    font-size: larger;
+    align-self: center;
+}
+#skill{
+    text-align: center;
+}
+#skillcontainer ul li{
+    list-style: none;
+    padding: 5px;
+}
+#progress{
+    width: 50%;
+}
+footer{
+    background-color: black;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+}
+#menu2{
+    margin-left: 20%;
+}
+#menu2 ul{
+    list-style: none;
+}
+#menu2 ul li{
+    color: white;
+    margin-top: 5px;  
+}
+#h{
+    text-decoration: none;
+    color: white;
+}
+#h:hover{
+    color: red;
+}
+#menu3{
+    margin-left: 20%;
+}
+#menu3 ul{
+    list-style: none;
+}
+#menu3 ul li{
+    color: white; 
+    margin-top: 5px;
+}
